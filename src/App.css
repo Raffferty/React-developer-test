@@ -1,0 +1,50 @@
+.Main {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+}
+.Input {
+  width: 100%;
+}
+
+.Lable {
+  margin: 5px;
+  width: 80%;
+}
+
+.Button {
+  background-color: rgb(1, 159, 165);
+  border: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 5px 10px;
+  margin: 15px 5px 0 5px;
+  font-weight: bold;
+}
+
+.FormControl {
+  text-align: start;
+  margin: 5px 0 0 0;
+}
+
+.Error {
+  color: red;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .Main {
+    width: 400px;
+  }
+}
